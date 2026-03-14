@@ -93,11 +93,33 @@ Sau khi chạy xong, **khởi động lại máy**.
 3. Chọn **Ubuntu 24.04.1 LTS** rồi bấm **Get** hoặc **Install**.
 4. Chờ tải xong (khoảng vài trăm MB).
 
+## Bước 3 - Cài đặt Tabby trên Windows để gõ được Tiếng Việt trên cửa sổ Terminal
+
+Mở **PowerShell** với *quyền Administrator* chạy:
+
+```powershell
+winget install Eugeny.Tabby
+```
+
+Thêm profile Ubuntu WSL
+
+Sau khi mở Tabby:
+	1.	Nhấn nút ⚙️ Settings ở góc trên phải.
+	2.	Vào Profiles & connections → chọn + New profile.
+	3.	Chọn loại Local terminal.
+	4.	Ở mục Shell, chọn WSL / Ubuntu (Tabby sẽ tự nhận các distro đã cài).
+	5.	Đặt tên profile, ví dụ: Ubuntu WSL.
+	6.	Nhấn Save.
+
+Sau đó:
+	1.	Nhấn nút + trên thanh tab.
+	2.	Chọn profile Ubuntu WSL vừa tạo để mở terminal.
+
 ***
 
-### Bước 3 - Khởi tạo Ubuntu lần đầu
+### Bước 4 - Khởi tạo Ubuntu lần đầu
 
-1. Mở **Ubuntu 24.04** với quyền **Administrator** từ **Start Menu**.
+1. Mở **Tabby** (nếu muốn gõ được Tiếng Việt) hoăc mở **Ubuntu 24.04** với quyền **Administrator** từ **Start Menu**.
 2. Chờ vài phút để hệ thống giải nén (chỉ xảy ra lần đầu).
 3. Nhập **UNIX username**  
    - dùng chữ thường  
@@ -107,7 +129,7 @@ Sau khi chạy xong, **khởi động lại máy**.
    - khi gõ sẽ không hiển thị ký tự, đây là hành vi bình thường.
 ***
 
-### Bước 4 – Cài toàn bộ môi trường trong Ubuntu
+### Bước 5 – Cài toàn bộ môi trường trong Ubuntu
 
 Mở Ubuntu terminal và chạy tuần tự các bước sau:
 
