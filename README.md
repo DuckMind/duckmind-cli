@@ -140,14 +140,15 @@ node -v
 npm -v
 ```
 
-**Cài các package npm toàn hệ thống**
-```bash
-sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
-```
-
 **Cài các thư viện Python**
 ```bash
 pip3 install --break-system-packages markitdown[all] Pillow openpyxl
+```
+
+
+**Cài đặt Duckmind**
+```bash
+sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
 ```
 
 **Kiểm tra cài đặt**
@@ -193,14 +194,14 @@ node -v
 npm -v
 ```
 
-### Bước 4 – Cài npm packages toàn hệ thống
-```bash
-sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
-```
-
-### Bước 5 – Cài Python packages
+### Bước 4 – Cài Python packages
 ```bash
 pip3 install --break-system-packages markitdown[all] Pillow openpyxl
+```
+
+### Bước 5 – Cài DuckMind
+```bash
+sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
 ```
 
 ### Bước 6 – Kiểm tra hoàn tất
@@ -255,16 +256,16 @@ brew install --cask libreoffice
 
 ***
 
-### Bước 5 – Cài npm packages
+### Bước 5 – Cài Python packages
 ```bash
-npm install -g @duckmind/duckmind docx xlsx pptxgenjs
+pip3 install markitdown[all] Pillow openpyxl
 ```
 
 ***
 
-### Bước 6 – Cài Python packages
+### Bước 6 – Cài đặt DuckMind
 ```bash
-pip3 install markitdown[all] Pillow openpyxl
+npm install -g @duckmind/duckmind docx xlsx pptxgenjs
 ```
 
 ***
