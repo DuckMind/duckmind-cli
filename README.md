@@ -93,7 +93,7 @@ Sau khi chạy xong, **khởi động lại máy**.
 3. Chọn **Ubuntu 24.04.1 LTS** rồi bấm **Get** hoặc **Install**.
 4. Chờ tải xong (khoảng vài trăm MB).
 
-## Bước 3 - Cài đặt Tabby trên Windows để gõ được Tiếng Việt trên cửa sổ Terminal
+### Bước 3 - Cài đặt Tabby trên Windows để gõ được Tiếng Việt trên cửa sổ Terminal
 
 Mở **PowerShell** với *quyền Administrator* chạy:
 
