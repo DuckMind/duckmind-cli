@@ -87,19 +87,27 @@ Lệnh này sẽ tự động:
 
 Sau khi chạy xong, **khởi động lại máy**.
 
-***
-
-### Bước 2 – Khởi tạo Ubuntu
-
-Sau khi restart, Ubuntu sẽ tự mở và yêu cầu:
-- Nhập **username** (chữ thường, không dấu, không khoảng trắng)
-- Nhập **password**
-
-> ⚠️ Password sẽ **không hiển thị** khi gõ – đây là bình thường.
+### Bước 2 - Cài Ubuntu 24.04 từ Microsoft Store
+1. Mở **Microsoft Store** (tìm trong Start Menu).
+2. Tìm **Ubuntu 24.04**.
+3. Chọn **Ubuntu 24.04.1 LTS** rồi bấm **Get** hoặc **Install**.
+4. Chờ tải xong (khoảng vài trăm MB).
 
 ***
 
-### Bước 3 – Cài toàn bộ môi trường trong Ubuntu
+### Bước 3 - Khởi tạo Ubuntu lần đầu
+
+1. Mở **Ubuntu 24.04** với quyền **Administrator** từ **Start Menu**.
+2. Chờ vài phút để hệ thống giải nén (chỉ xảy ra lần đầu).
+3. Nhập **UNIX username**  
+   - dùng chữ thường  
+   - không dấu  
+   - không khoảng trắng
+4. Nhập **password**  
+   - khi gõ sẽ không hiển thị ký tự, đây là hành vi bình thường.
+***
+
+### Bước 4 – Cài toàn bộ môi trường trong Ubuntu
 
 Mở Ubuntu terminal và chạy tuần tự các bước sau:
 
