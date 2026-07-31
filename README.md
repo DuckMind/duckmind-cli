@@ -167,6 +167,48 @@ dm --version
 
 ---
 
+## 🪟 Windows 11 (PowerShell + Git Bash/Cygwin)
+
+Use this option to install DuckMind directly on Windows instead of running it inside WSL.
+
+### Step 1 — Install DuckMind
+
+Open **PowerShell** or **Windows Terminal** as **Administrator** and run:
+
+```powershell
+irm https://duckmind.ai/install.ps1 | iex
+```
+
+The installer sets up the required Git Bash, Node.js, and DuckMind CLI components. It also attempts to install Cygwin and optional document-processing tools.
+
+### Step 2 — Verify the Installation
+
+Close and reopen your terminal, then verify DuckMind in PowerShell:
+
+```powershell
+dm --version
+```
+
+In Git Bash, run:
+
+```bash
+dm --version
+```
+
+In a default Cygwin installation, use the Windows command shim:
+
+```bash
+dm.cmd --version
+```
+
+Start DuckMind from Cygwin with:
+
+```bash
+dm.cmd
+```
+
+---
+
 # Getting Started with the DuckMind CLI
 
 After installation, open a terminal and run:
